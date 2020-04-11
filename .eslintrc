@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "plugins": ["import"],
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": 0,
+    "no-eval": "error",
+    "import/first": "error",
+    "no-unused-vars" : 0,
+    "no-undef":0,
+    "no-template-curly-in-string":0
+  }
+}
